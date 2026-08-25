@@ -14,7 +14,7 @@ Design parameters (from the "The capacitor design" and "Series Field Equality"
 slides):
 
     Layer   Dielectric   k       A (mm^2)   d (um)   n (layer count)
-    y       Y5V          15000   37         3        50
+    y       Y5U          15000   37         3        50
     x       X7R          4600    47         3        20
     c       C0G (NP0)    60      44         120      10
 
@@ -59,7 +59,7 @@ class Layer:
 
 
 LAYERS = [
-    Layer(name="y", dielectric="Y5V", k=15000, area_mm2=37, thickness_um=3, n_layers=50),
+    Layer(name="y", dielectric="Y5U", k=15000, area_mm2=37, thickness_um=3, n_layers=50),
     Layer(name="x", dielectric="X7R", k=4600, area_mm2=47, thickness_um=3, n_layers=20),
     Layer(name="c", dielectric="C0G (NP0)", k=60, area_mm2=44, thickness_um=120, n_layers=10),
 ]
