@@ -84,8 +84,6 @@ The file was saved with the solution included, so you can inspect the results wi
 
 5. To reproduce the field-equality result, open **Results → Derived Values → Evaluation 3D**, select the domain for one dielectric, set the expression to `es.normE`, and click **Evaluate**. Repeat for each dielectric — all three return 1.6667E6 V/m.
 
-> **Naming note:** the dielectric is **Y5U** (εr = 15000), matching the material label in the COMSOL model. Some of the original presentation slides — including the field-uniformity screenshot above — mislabel it as Y5V.
-
 ## Design Summary
 
 **Materials**
