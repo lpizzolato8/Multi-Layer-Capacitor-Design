@@ -2,8 +2,6 @@
 
 A decoupling (MLCC) capacitor design project for filtering high-frequency noise from a power supply — sized for a small board (Raspberry Pi Pico use case). The stack is modeled and solved in **COMSOL Multiphysics 6.3**; the model file [`MLC2_F&W.mph`](MLC2_F&W.mph) is included in this repo.
 
-Carley Taylor, Liam Pizzolato, Josh Shapo — December 2025
-
 ---
 
 ## Overview
