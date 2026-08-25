@@ -2,8 +2,6 @@
 
 A decoupling (MLCC) capacitor design project for filtering high-frequency noise from a power supply — sized for a small board (Raspberry Pi Pico use case).
 
-**Authors:** Carley Taylor, Liam Pizzolato, Josh Shapo — December 8, 2025
-
 ## Overview
 
 A Multilayer Ceramic Capacitor (MLCC) is built from alternating ceramic dielectric layers and metal electrode layers, connected at two (or three) external terminals. This project designs a three-dielectric-layer MLCC stack combining three common dielectric materials, computes each layer's contribution to total capacitance, and simulates the resulting electric field/potential distribution.
